@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video background website</title>
+    <link rel="stylesheet" href="style.css">
+    <!----------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Logo</a>
+        <div class="rightSide">
+            <div class="btns menuToggle">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-close"></i>
+            </div>
+        </div>
+    </header>
+
+    <!------------------------------>
+    <section class="timeline">
+        
+        <div class="container left-container">
+            <div class="image"><img src="images/basic.png"></div>
+            <div class="text-box">
+                <h2>Basic Plan</h2>
+                <h5><span>$</span>150<span>/mo</span></h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed distinctio blanditiis in 
+                    modi dolor nulla eveniet pariatur, 
+                    rem porro delectus vero asperiores adipisci illum eius facilis ad, 
+                    dolores est incidunt corrupti debitis vitae repellendus mollitia.
+                </p>
+                <button class="btn">Choose Plan</button>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <div class="image"><img src="images/startup.png"></div>
+            <div class="text-box">
+                <h2>Startup Plan</h2>
+                <h5><span>$</span>250<span>/mo</span></h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed distinctio 
+                    blanditiis in modi dolor nulla eveniet pariatur, 
+                    rem porro delectus vero asperiores adipisci illum eius facilis ad, dolores
+                     est incidunt corrupti debitis vitae repellendus mollitia.
+                </p>
+                <button class="btn">Choose Plan</button>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <div class="image"><img src="images/growth.png"></div>
+            <div class="text-box">
+                <h2>Growth Plan</h2>
+                <h5><span>$</span>450<span>/mo</span></h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed distinctio blanditiis 
+                    in modi dolor nulla eveniet pariatur, 
+                    rem porro delectus vero asperiores adipisci illum eius facilis ad, dolores est
+                     incidunt corrupti debitis vitae repellendus mollitia.
+                </p>
+                <button class="btn">Choose Plan</button>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <div class="image"><img src="images/enterprise.png"></div>
+            <div class="text-box">
+                <h2>Enterprise Plan</h2>
+                <h5><span>$</span>650<span>/mo</span></h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed distinctio blanditiis 
+                    in modi dolor nulla eveniet pariatur, 
+                    rem porro delectus vero asperiores adipisci illum eius facilis ad, dolores est 
+                    incidunt corrupti debitis vitae repellendus mollitia.
+                </p>
+                <button class="btn">Choose Plan</button>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+        <div class="credit">
+            <p>CopyRight &copy; 2022 | All Rights Reserved</p>
+        </div>
+    </section>
+
+    <!------------------------------>
+    
+   <ul class="sci">
+        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+    </ul>
+
+    <!--------------------------->
+
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="package.html">Package</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+   <script>
+    let menuToggle = document.querySelector('.menuToggle')
+    let body = document.querySelector('body')
+    let nav = document.querySelector('.nav')
+
+    
+    menuToggle.onclick = function() {
+        menuToggle.classList.toggle('active')
+        nav.classList.toggle('active')
+    }
+   </script>
+
+    
+</body>
+</html>

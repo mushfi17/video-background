@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video background website</title>
+    <link rel="stylesheet" href="style.css">
+    <!----------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Logo</a>
+        <div class="rightSide">
+            <div class="btns menuToggle">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-close"></i>
+            </div>
+        </div>
+    </header>
+
+    <!------------------------------>
+
+    <section class="about">
+        <div class="about-section">
+            <div class="inner-container">
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam voluptatum quae fugit perferendis eveniet, 
+                    nihil, similique ullam molestiae iste tempora natus pariatur quis eos ducimus harum quaerat maxime, 
+                    architecto unde ex ab minima? Quisquam, beatae.
+                </p>
+                <div class="skills">
+                    <span>Web Design</span>
+                    <span>Graphic Design</span>
+                    <span>Photoshop & Illustrator</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------->
+   
+    <ul class="sci">
+        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+    </ul>
+
+    <!--------------------------->
+
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="package.html">Package</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="credit">
+        <p>CopyRight &copy; 2022 | All Rights Reserved</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+   <script>
+    let menuToggle = document.querySelector('.menuToggle')
+    let body = document.querySelector('body')
+    let nav = document.querySelector('.nav')
+
+    
+    menuToggle.onclick = function() {
+        menuToggle.classList.toggle('active')
+        nav.classList.toggle('active')
+    }
+   </script>
+
+    
+</body>
+</html>
